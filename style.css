@@ -1,0 +1,40 @@
+*{
+    border: 3px dotted blue 
+   }
+   .cont {
+     width:70%;
+     background:lightgray;
+     height:100000px;
+     margin: 0 auto;
+     
+   }
+   nav{
+     display:flex;
+     justify-content:space-around;
+     background:grey;
+     position:sticky;
+     top:0;
+   }
+   .ninja{
+     width:100%;
+   }
+   .sects {
+     display:flex;
+     justify-content:space-around;
+   }
+   .sect{
+     width:30%;
+   }
+   .sectimg {
+   width:100%; 
+   }
+   p{
+     font-size:2vw;
+   }
+   .srow{
+    display:flex;
+    justify-content:space-around;
+   }
+   *{
+     border: 1px dotted black
+   }
