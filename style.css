@@ -47,7 +47,14 @@
     justify-content:space-around;
    }
    .vert{
-    width:10%; 
+    width:18%; 
+    display:flex;
+    justify-content:space-around;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .bert{
+    width:18%;
     display:flex;
     justify-content:space-around;
     writing-mode: vertical-rl;
@@ -66,8 +73,3 @@
     font-weight: 400;
     font-style: normal;
   }
-  .title{
-    font-family: "Dorsa", serif;
-    font-weight: 400;
-    font-style: normal;
-   }
