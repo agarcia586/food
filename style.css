@@ -9,7 +9,7 @@
    }
    .cont {
      width:70%;
-     background:lightgray;
+     background:rgb(206, 222, 212);
      height:100000px;
      margin: 0 auto;
      
@@ -17,7 +17,7 @@
    nav{
      display:flex;
      justify-content:space-around;
-     background:grey;
+     background:rgb(9, 58, 62);
      position:sticky;
      top:0;
    }
@@ -38,6 +38,7 @@
    }
    p{
      font-size:5vw; 
+     color: white;
      font-family: "Dorsa", serif;
      font-weight: 800;
      font-style: normal;
@@ -47,7 +48,8 @@
     justify-content:space-around;
    }
    .vert{
-    width:18%; 
+    width:18%;
+    background:rgb(168, 198, 134);
     display:flex;
     justify-content:space-around;
     writing-mode: vertical-rl;
@@ -55,6 +57,7 @@
   }
   .bert{
     width:18%;
+    background:rgb(168, 198, 134);
     display:flex;
     justify-content:space-around;
     writing-mode: vertical-rl;
